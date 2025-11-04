@@ -1,0 +1,210 @@
+
+
+<h3 class="text-center">Ai Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let ai of aiArr">
+         <div class="card h-100">
+                <div class="card-header bg-info">
+                    <h3 class="m-0">{{ai.topic}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{ai.details}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+
+
+<h3 class="text-center">Math Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let math of mathArr">
+         <div class="card h-100">
+                <div class="card-header bg-warning">
+                    <h3 class="m-0">{{math.concept}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{math.explain}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="text-center">Robotics Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let robotics of roboticsArr">
+         <div class="card h-100">
+                <div class="card-header bg-info">
+                    <h3 class="m-0">{{robotics.module}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{robotics.summary}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+
+
+<h3 class="text-center">Business Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let business of businessArr">
+         <div class="card h-100">
+                <div class="card-header bg-secondary">
+                    <h3 class="m-0">{{business.topicName}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{business.description}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+
+
+<h3 class="text-center"> geography Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let geography of geographyArr">
+         <div class="card h-100">
+                <div class="card-header bg-info">
+                    <h3 class="m-0">{{geography.subject}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{geography.info}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+
+
+<h3 class="text-center"> psychology Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let psychology of psychologyArr">
+         <div class="card h-100">
+                <div class="card-header bg-secondary">
+                    <h3 class="m-0">{{psychology.field}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{psychology.concept}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="text-center"> biology Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let biology of biologyArr">
+         <div class="card h-100">
+                <div class="card-header bg-info">
+                    <h3 class="m-0">{{biology.section}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{biology.detail}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="text-center"> TechtoolArr Card</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor ="let techTool of techToolsArr">
+         <div class="card h-100">
+                <div class="card-header bg-warning">
+                    <h3 class="m-0">{{techTool.tool}}</h3>
+             </div>
+               
+             <div class="card-body">
+                <p class="m-0">
+                  {{techTool.usage}}
+                </p>
+             </div>
+         
+          <div class="card-footer d-flex justify-content-between">
+               <button class="btn btn-sm bg-success">Edit</button>
+               <button class="btn btn-sm bg-danger">Remove</button>
+           </div>
+
+         </div>
+        </div>
+    </div>
+</div>

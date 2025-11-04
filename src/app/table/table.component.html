@@ -1,0 +1,226 @@
+
+
+<h3>Employee</h3>
+
+<table class="table table-bordered">
+    <thead Class="alert alert-success">
+        <tr>
+            <th>empId</th>
+            <th>empName</th>
+            <th>designation</th>
+            <th>department</th>
+            <th>salary</th>
+            <th>isPermanent</th>
+            <th>email</th>
+            <th>contact</th>
+        </tr>
+    </thead>
+   <tbody>
+    <tr *ngFor="let emp of empArr">
+        <td>{{emp.empId}}</td>
+        <td>{{emp.empName}}</td>
+        <td>{{emp.designation}}</td>
+        <td>{{emp.department}}</td>
+        <td>{{emp.salary}}</td>
+        <td>{{emp.isPermanent}}</td>
+        <td>{{emp.email}}</td>
+        <td>{{emp.contact}}</td>
+    </tr>
+</tbody>
+
+</table>
+
+
+
+<table class="table table-bordered">
+    <thead class="alert alert-danger">
+        <tr>
+           <th>rollNo</th>
+           <th>name</th>
+           <th>course</th>
+           <th>year</th>
+           <th>percentage</th>
+           <th>isPassed</th>
+           <th>email</th>
+           <th>contact</th>
+        </tr>
+    </thead>
+   <tbody>
+    <tr *ngFor="let student of studentArr">
+        <td>{{student.rollNo}} </td>
+        <td>{{student.name}}</td>
+        <td>{{student.course}}</td>
+        <td>{{student.year}}</td>
+        <td>{{student.percentage}}</td>
+        <td>{{student.isPassed}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.contact}}</td>
+    </tr>
+</tbody>
+
+</table>
+
+<table class="table table-bordered">
+    <thead class="alert alert-warning">
+        <tr>
+            <th>prodId</th>   
+           <th>prodName</th>
+           <th>category</th>
+            <th>price</th>
+            <th>stock</th>
+            <th>isAvailable</th>
+            <th>brand</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let product of productArr">
+            <td>{{product.prodId}}</td>   
+           <td>{{product.prodName}}</td>
+           <td>{{product.category}}</td>
+            <td>{{product.price}}td>
+            <td>{{product.stock}}</td>
+            <td>{{product.isAvailable}}</td>
+            <td>{{product.brand}}</td>  
+        
+        </tr>
+    </tbody>
+</table>
+
+
+
+<table class="table table-bordered">
+    <thead class="alert alert-primary">
+        <tr>
+          <th>courseId</th>   
+           <th>courseName</th>
+           <th>duration</th>
+            <th>fees</th>
+            <th>mode</th>
+            <th>isActive</th>
+            <th>trainer</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let course of courseArr">
+            <td>{{course.courseId}}</td>   
+           <td>{{course.courseName}}</td>
+           <td>{{course.duration}}</td>
+            <td>{{course.fees}}</td>
+            <td>{{course.mode}}</td>
+            <td>{{course.isActive}}</td>
+            <td>{{course.trainer}}</td>  
+        </tr>
+    </tbody>
+</table>
+ 
+
+ 
+
+<table class="table table-bordered">
+    <thead class="alert alert-secondary">
+        <tr>
+          <th>bookId</th>   
+           <th>title</th>
+           <th>author</th>
+            <th>price</th>
+            <th>pages</th>
+            <th>isAvailable</th>
+            <th>genre</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let book of bookArr">
+            <td>{{book.bookId}}</td>   
+           <td>{{book.title}}</td>
+           <td>{{book.author}}</td>
+            <td>{{book.pages}}</td>
+            <td>{{book.price}}</td>
+            <td>{{book.isAvailable}}</td>
+            <td>{{book.genre}}</td>  
+        </tr>
+    </tbody>
+</table>
+ 
+
+
+<table class="table table-bordered">
+    <thead class="alert alert-primary">
+        <tr>
+          <th>custId</th>   
+           <th>name</th>
+           <th>city</th>
+            <th>age</th>
+            <th>email</th>
+            <th>isPrime</th>
+            <th>contact</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let customer of customerArr">
+            <td>{{customer.custId}}</td>   
+           <td>{{customer.name}}</td> 
+           <td>{{customer.city}}</td>
+            <td>{{customer.age}}</td>
+            <td>{{customer.email}}</td>
+            <td>{{customer.isPrime}}</td>
+            <td>{{customer.contact}}</td>  
+        </tr>
+    </tbody>
+</table>
+
+ <table class="table table-bordered">
+    <thead class="alert alert-danger">
+        <tr>
+          <th>orderId</th>   
+           <th>customerName</th>
+            <Th>product</Th>
+            <th>amount</th>
+            <th>status</th>
+            <th>date</th>
+            
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let order of orderArr">
+            <td>{{order.orderId}}</td>   
+           <td>{{order.customerName}}</td>
+           <td>{{order.product}}</td>
+            <td>{{order.amount}}</td>
+            <td>{{order.status}}</td>
+            <td>{{order.date}}</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+
+    <table class="table table-bordered">
+    <thead class="alert alert-info">
+        <tr>
+          <th>teacherId</th>   
+           <th>name</th>
+           <th>subject</th>
+            <th>experience</th>
+            <th>salary</th>
+            <th>isFullTime</th>
+            <th>email</th>  
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let teacher of teacherArr">
+            <td>{{teacher.teacherId}}</td>   
+           <td>{{teacher.name}}</td> 
+           <td>{{teacher.subject}}</td>
+            <td>{{teacher.experience}}</td>
+            <td>{{teacher.salary}}</td>
+            <td>{{teacher.isFullTime}}</td>
+            <td>{{teacher.email}}</td>  
+        </tr>
+    </tbody>
+</table>
