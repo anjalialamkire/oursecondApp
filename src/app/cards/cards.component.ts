@@ -4,7 +4,7 @@ import { aiArr, biologyArr, businessArr, geographyArr, ImathArr, IroboticsArr, p
 
 @Component({
     selector:'app-cards',
-    templateUrl:'./cards.Component.html',
+    templateUrl:'./cards.component.html',
     styleUrls:['./cards.component.scss']
 })
 

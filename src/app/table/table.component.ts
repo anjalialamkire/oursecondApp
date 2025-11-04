@@ -5,7 +5,7 @@ import { Ibook, Icourse, Icustomer, Imovie, Iorder, Iproduct, Istudent, ITable, 
 
 @Component({
     selector:'app-table',
-    templateUrl:'./table.Component.html',
+    templateUrl:'./table.component.html',
     styleUrls:['./table.component.scss']
 })
 
